@@ -1,13 +1,17 @@
 {
   "name": "excelerate",
   "version": "1.0.0",
-  "description": "",
-  "main": "excelerate.js",
+  "description": "A grid position parser",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["excel", "grid", "spreadsheet"],
+  "author": {
+    "name": "Ashley Clarke",
+    "email": "me@ashleyclarke.me",
+    "url": "http://ashleyclarke.me"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
