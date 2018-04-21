@@ -1,12 +1,16 @@
 {
   "name": "excelerate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A grid position parser",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["excel", "grid", "spreadsheet"],
+  "keywords": [
+    "excel",
+    "grid",
+    "spreadsheet"
+  ],
   "author": {
     "name": "Ashley Clarke",
     "email": "me@ashleyclarke.me",
