@@ -3,9 +3,13 @@ node_js:
 - '7'
 deploy:
   provider: npm
+  tag: next
   email: me@ashleyclarke.me
   api_key:
     secure: dLeTbJ++tQNxAYz+sVDeWfr1nlfwjw6YP7YjA7ijF2AcPDT81M9duw3fb//5CXms6h+5bVy4gQJJi6Gs5PFrqM5tOTHnGq4XX5gDqfSBdEJxGvHHuLd5RR1+cEoKVhGvePbVpNShKutRwqpfSuvpFXNRs0FZIDR1N/UhTvpZUGC84po3LKYI9M3ncEESddKh6pEJTQBFXy0KQH6m8S/hRMdaEr+9MrSRfk2SoXtHZVLbOiFYwTIxzyV7fsdXsxtPKVhtKCNxTg5t6+voMPgHu1r+lAY2wuStlfcgkqUZLstVHuO2Jd+vln37M6ulcNbUHLCIFf4wGTLoHfTrFl2vjgMmWOcItNKH5l0xBWvY+DuhpS4+EBglpVd6kmOP8kg9gse4qVp0hJM0rKAv+LS3mNiVE94FrJIQdYJDCX5WzJ5ZVpSQvt0igJH4NGSztTJJzt373IjOVYpaZOYc1gmIsmBR03f4wKX3g7BRVAgSeP8wDvE3v2oGdXoBfsLSpf/ovIodB8xrDTyznwJHdi6DA739nsn/iJR/FeQj3T9FPKNHBSjJFfNZDFP2HR/BQEP2ZbcHsEb0gSEugvt9Bw7Ey2Kk+77nTbSKouBQVvL2JGTcLNSdFaGZ7PdB7HcJvkNtFIpYoKCk2A4ceUX3M3Y7r/md1jI9JssEhZSsz8L0wxE=
   on:
     tags: true
     repo: clarkeash/excelerate
+cache:
+  directories:
+    - "node_modules"
