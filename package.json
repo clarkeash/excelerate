@@ -11,6 +11,10 @@
     "grid",
     "spreadsheet"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarkeash/excelerate"
+  },
   "author": {
     "name": "Ashley Clarke",
     "email": "me@ashleyclarke.me",
