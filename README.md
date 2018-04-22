@@ -17,3 +17,7 @@
 ```bash
 npm i excelerate
 ```
+
+## Usage
+
+Docs: https://excelerate.netlify.com
